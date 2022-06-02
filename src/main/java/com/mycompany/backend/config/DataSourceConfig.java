@@ -18,7 +18,7 @@ public class DataSourceConfig {
 		log.info("실행");
 	    HikariConfig config = new HikariConfig();
 	    config.setDriverClassName("oracle.jdbc.OracleDriver");
-	    config.setJdbcUrl("jdbc:oracle:thin:@kosa1.iptime.org:50100:orcl");
+	    config.setJdbcUrl("jdbc:oracle:thin:@kosa1.iptime.org:50122:orcl");
 	    config.setUsername("spring");
 	    config.setPassword("oracle");
 	    config.setMaximumPoolSize(3);
